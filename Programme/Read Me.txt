@@ -1,0 +1,6 @@
+Sub RunPythonScript()
+    Dim scriptPath As String
+    scriptPath = """F:\Study\Git Hub\Zoom Attendance\Programme\Attendance.py"""  ' Double quotes to handle spaces
+    Shell "python " & scriptPath, vbHide  ' Run in the background
+End Sub
+
